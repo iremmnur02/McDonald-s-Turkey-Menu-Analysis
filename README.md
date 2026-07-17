@@ -1,2 +1,20 @@
-# McDonald-s-Turkey-Menu-Analysis
-This project analyzes McDonald's menu items using Python and Pandas to identify the highest and lowest calorie products, compare protein and sugar ratios, and build a simple recommendation system. Users receive healthier alternatives from the same category based on calorie, protein, and sugar criteria.
+# McDonald's Turkey Menu Analysis
+
+This project analyzes McDonald's Turkey's official nutrition data by
+category — calories, protein, and sugar — and recommends healthier
+alternatives based on the product the user selects.
+
+## Dataset
+Extracted from McDonald's Turkey's official nutrition information PDF
+and converted into a structured Excel file.
+
+## Tools Used
+- Python (pandas)
+- Google Colab
+- ipywidgets (interactive recommendation system)
+
+## What Was Done
+- Data cleaning and numeric conversion
+- Highest / lowest calorie products by category
+- Protein and sugar percentage analysis
+- Two-step (category → product) recommendation system
